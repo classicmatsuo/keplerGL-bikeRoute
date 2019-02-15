@@ -1,0 +1,132 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+      ],
+      "layers": [
+        {
+          "id": "evrf8g8c",
+          "type": "geojson",
+          "config": {
+            "dataId": "0d93swb5",
+            "label": "CDOT_Bike_Routes_2014_1216",
+            "color": [
+              18,
+              147,
+              154,
+              255
+            ],
+            "columns": {
+              "geojson": "the_geom"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "thickness": 0.5,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "hi-precision": false,
+              "stroked": true,
+              "filled": false,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "textLabel": {
+              "field": null,
+              "color": [
+                255,
+                255,
+                255
+              ],
+              "size": 50,
+              "offset": [
+                0,
+                0
+              ],
+              "anchor": "middle"
+            }
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "0d93swb5": [
+              "T_STREET",
+              "F_STREET",
+              "STREET",
+              "BIKEROUTE",
+              "Shape_Leng"
+            ]
+          },
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": []
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": true,
+      "latitude": 41.9086182401621,
+      "longitude": -87.67140528781965,
+      "pitch": 50,
+      "zoom": 12.961423708861501,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "muted_night",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": true
+      },
+      "mapStyles": {}
+    }
+  }
+}

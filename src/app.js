@@ -59,7 +59,9 @@ import {addDataToMap, addNotification} from 'kepler.gl/actions';
 import Processors from 'kepler.gl/processors';
 /* eslint-enable no-unused-vars */
 
-const MAPBOX_TOKEN = process.env.MapboxAccessToken; // eslint-disable-line
+const MAPBOX_TOKEN = "pk.eyJ1Ijoia21hdHN1byIsImEiOiJjamwzenB2aWgwMTdlM3hudG03bWRzbXN5In0.zY6FY93OeizuJw2yl0J9og";
+
+// const MAPBOX_TOKEN = process.env.MapboxAccessToken; // eslint-disable-line
 
 const BannerHeight = 30;
 const BannerKey = 'kgHideBanner-iiba';

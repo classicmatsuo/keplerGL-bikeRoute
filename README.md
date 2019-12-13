@@ -2,7 +2,7 @@
 
 [dataset used in this project](https://data.cityofchicago.org/Transportation/Bike-Routes/3w5d-sru8)
 
-![chicago green roofs](https://raw.githubusercontent.com/classicmatsuo/keplerGL-bikeRoute/master/docs/bikeroute.png)
+![chicago green roofs](https://raw.githubusercontent.com/classicmatsuo/keplerGL-bikeRoute/master/bikeroute.png)
 
 
 ### Local dev

@@ -1,6 +1,8 @@
-# Demo App
+# Kepler.gl mapping Chicago Public Dataset of Bike Routes
 
-This is the src code of kepler.gl demo app.
+[dataset used in this project](https://data.cityofchicago.org/Transportation/Bike-Routes/3w5d-sru8)
+
+![chicago green roofs](https://raw.githubusercontent.com/classicmatsuo/keplerGL-bikeRoute/master/docs/bikeroutes.png)
 
 
 ### Local dev
